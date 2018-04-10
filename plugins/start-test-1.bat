@@ -1,0 +1,1 @@
+python ./simpleslave/test-serial.py

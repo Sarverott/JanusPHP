@@ -1,0 +1,27 @@
+{
+  "users":[
+    {
+      "login":"d033e22ae348aeb5660fc2140aec35850c4da997",
+      "pass":"7110eda4d09e062aa5e4a390b0a572ac0d2c0220"
+    },
+    {
+      "login":"35675e68f4b5af7b995d9205ad0fc43842f16450",
+      "pass":"d5f12e53a182c062b6bf30c1445153faff12269a"
+    }
+  ],
+  "command_library":[
+    {
+      "alias":"simpleslave",
+      "filepath":"./plugins/simpleslave/main.php"
+    },
+    {
+      "alias":"hello",
+      "filepath":"./plugins/hello/main.php"
+    },
+    {
+      "alias":"setup",
+      "filepath":"./plugins/setup/main.php"
+    }
+  ],
+  "session_timeout":600
+}
