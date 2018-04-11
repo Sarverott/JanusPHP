@@ -10,17 +10,10 @@
     }
   ],
   "command_library":[
-    {
-      "alias":"simpleslave",
-      "filepath":"./plugins/simpleslave/main.php"
-    },
+    
     {
       "alias":"hello",
       "filepath":"./plugins/hello/main.php"
-    },
-    {
-      "alias":"setup",
-      "filepath":"./plugins/setup/main.php"
     }
   ],
   "session_timeout":600

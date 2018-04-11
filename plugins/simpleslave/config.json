@@ -1,6 +1,0 @@
-{
-  "device":"/dev/ttyACM0",
-  "port":"COM5",
-  "baudrate":9600,
-  "allowedports":[2,3,4,5]
-}
