@@ -11,8 +11,8 @@
   ],
   "command_library":[
     {
-      "alias":"simpleslave",
-      "filepath":"./plugins/simpleslave/main.php"
+      "alias":"mygolem",
+      "filepath":"./plugins/mygolem/main.php"
     },
     {
       "alias":"hello",

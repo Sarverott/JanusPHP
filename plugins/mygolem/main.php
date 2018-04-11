@@ -4,11 +4,11 @@
   }elseif(!is_numeric($_GET['pin'])||!($_GET['state']=="low"||$_GET['state']=="high")){
     echo '{"status":"error","error":"wrong_syntax"}';
   }else{
-    $cnfg_data=read_json_file(".\\plugins\\simpleslave\\config.json");
+    $cnfg_data=read_json_file(".\\plugins\\mygolem\\config.json");
     if(in_array($_GET['pin'], $cnfg_data->allowedports)){
       $reto=array();
       $out=0;
-      exec(('python "'.SYSTEM_CORE_LOCATION_WIN.'plugins\\simpleslave\\simpleslave-connector.py" '.$_GET['pin'].' '.$_GET['state']), $reto, $out);
+      exec(('python "'.SYSTEM_CORE_LOCATION_WIN.'plugins\\mygolem\\mygolem-connector.py" '.$_GET['pin'].' '.$_GET['state']), $reto, $out);
       //echo "<pre>";
       //var_dump($reto);
       //var_dump($out);

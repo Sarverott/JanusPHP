@@ -1,1 +1,1 @@
-python ./simpleslave/test-serial.py
+python ./mygolem/test-serial.py
